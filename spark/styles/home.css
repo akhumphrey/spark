@@ -1,0 +1,21 @@
+/*
+		NAME: home.css
+		PROVIDES: homepage stylesheet information
+		AFFECTS: /home/index.php
+*/
+
+#homeMessage {
+	height: 42px;
+}
+#homeMessageImg {
+	position: absolute;
+	left: 50%;
+	margin-left: -115px;
+}
+#homeMessageTxt {
+	position: absolute;
+	left: 50%;
+	margin-left: -80px;
+	text-align: left;
+	padding-top: 6px;
+}

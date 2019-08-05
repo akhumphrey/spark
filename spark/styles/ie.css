@@ -1,0 +1,146 @@
+/*
+		NAME: ie.css
+		PROVIDES: internet explorer css overrides
+		AFFECTS: all pages
+*/
+input[type="checkbox"] {
+	background-color: #f00;
+}
+span a {
+	width: 0px;
+}
+#addUserBut input {
+	margin-left: 135px;
+}
+#bodyWrapper {
+	font-size: 1.5em;
+}
+#detailsWrapper li {
+	margin-top: -5px;
+}
+#detailsWrapper2 li {
+	margin-top: -5px;
+}
+#detButtonConfirm {
+	position: absolute;
+	margin-top: -2px;
+}
+#detButtonCancel {
+	margin-top: -2px;
+	margin-left: 12px;
+}
+#detButtonDelete {
+	margin-top: -8px;
+	margin-bottom: 18px;
+}
+#detButtonReturn {
+	margin-top: 0px;
+	margin-bottom: 18px;
+}
+#detNameRight input {
+	margin-left: 7px;
+}
+#detOwnerRight input {
+	position: absolute;
+}
+#enabledHeader {
+	margin-left: -14px;	
+}
+#enabledRight input {
+	border: 0px;
+	background-color: #fff;
+	margin: 0px;
+}
+#filterAdd input {
+	height: 25px;
+	width: 95px;
+	margin-top: 6px;
+	margin-left: -15px;
+}
+#filterApply input {
+	height: 25px;
+	margin-top: 6px;
+	width: 48px;
+}
+#filterKeys input {
+	margin-left: -6px;
+}
+#formCancel {
+	width: 55px;
+	height: 25px;
+}
+#formSubmit {
+	width: 75px;
+	height: 25px;
+}
+#groupHeader {
+	margin-left: -13px;
+}
+#headerTabs {
+	position: absolute;
+	top: 14px;
+}
+#headerTabs li {
+	margin-top: -14px;
+}
+#imageWrapper span {
+	border: 1px solid #969696;
+}
+#imageWrapper span img {
+	border: 12px solid #e6e6e6;
+}
+#loginMessage img {
+	height: 40px;
+}
+#message form #detailsWrapper {
+	padding-top: 330px;
+}
+#nameFRight input, #nameLRight input, #pass1Right input, #pass2Right input, #phoneRight input, #userRight input {
+	width: 130px;
+}
+#nameHeader {
+	margin-left: -11px;
+}
+#pass1Right input, #pass2Right input {
+	margin-left: 4px;
+}
+#phoneHeader {
+	margin-left: -10px;
+}
+#tableWrapper {
+	width: 660px;
+	padding-left: 40px;
+}
+#userDetails {
+	padding-left: 170px;
+}
+#userHeader  {
+	margin-left: -8px;
+}
+#userRight input {
+	width: 130px;
+}
+.loginTxtField {
+	width: 110px;
+}
+.loginBtn {
+	width: 48px;
+	height: 25px;
+}
+.imageWrapper a {
+	border: 1px solid #969696;
+}
+.imageWrapper img {
+	margin-top: 1px;
+	border: 8px solid #e6e6e6;
+}
+.imageDetails a {
+	border: none;
+}
+.imageName {
+	width: 90px;
+	overflow: hidden;
+}
+.userSpacer {
+	margin-left: -2px;
+}

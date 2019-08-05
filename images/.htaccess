@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /images
+
+RewriteRule ^search/(\d+)/?$ ?search=true&page=$1 [L]
+RewriteRule ^details/(\d+)/?$ details/?iD=$1  [L]
+ReWriteRule ^details/(\d+)/delete/?$ details/?iD=$1&event=delete [L]
+ReWriteRule ^details/(\d+)/save/?$ details/?iD=$1&event=save [L]

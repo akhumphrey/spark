@@ -1,0 +1,144 @@
+/*
+		NAME: images.css
+		PROVIDES: image gallery stylesheet information
+		AFFECTS: /images/index.php
+*/
+#filterAdd {
+	float: left;
+	width: 104px;
+	height: 48px;
+	margin-left: 25px;
+}
+#filterAdd input {
+	margin-top: 7px;
+}
+#filterApply {
+	float: left;
+	width: 58px;
+	height: 48px;
+	margin-left: 5px;
+}
+#filterApply input {
+	margin-top: 7px;
+}
+#filterCat {
+	float: left;
+	width: 137px;
+	height: 48px;
+	margin-left: 5px;
+}
+#filterCat select {
+	width: 129px;
+}
+#filterDir {
+	float: left;
+	width: 68px;
+	height: 48px;
+	margin-left: 5px;
+}
+#filterDir select {
+	width: 60px;
+}
+#filterDisp {
+	float: left;
+	width: 137px;
+	height: 48px;
+	margin-left: 5px;
+}
+#filterDisp select {
+	width: 129px;
+}
+#filterForm {
+	height: 48px;
+	padding: 15px 0px;
+	border-bottom: 1px solid;
+}
+#filterKeys {
+	float: left;
+	margin-left: 11px;
+	width: 138px;
+	height: 48px;
+}
+#filterKeys input {
+	width: 120px;
+}
+#filterLim {
+	float: left;
+	width: 68px;
+	height: 48px;
+	margin-left: 5px;
+}
+#filterLim select {
+	width: 60px;
+}
+#filterSort {
+	float: left;
+	width: 137px;
+	height: 48px;
+	margin-left: 5px;
+}
+#filterSort select {
+	width: 129px;
+}
+#galleryNum {
+	position: absolute;
+	left: 50%;
+	margin-left: -11%;
+	width: 150px;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+#galleryPaging {
+	float: right;
+	margin-right: 16px;
+}
+#galleryPaging li {
+	float: left;
+	padding-right: 4px;
+}
+#galleryResults {
+	clear: both;
+	margin-bottom: 28px;
+}
+#galleryWrapper {
+	padding-left: 9px;
+	padding-top: 14px;
+}
+.gallerySpacer {
+	clear: both;
+	height: 0px;
+}
+.image {
+	border: 1px solid;
+	padding: 8px;
+	background-color: #e6e6e6;
+}
+.imageName {
+	list-style-image: url("../images/imageName.png");
+}
+.imageDetails {
+	list-style-type: none;
+	text-align: left;
+	padding: 6px 0px 11px 0px;
+	margin-left: 30px;
+	line-height: 1.5em;
+}
+.imageOwner {
+	list-style-image: url("../images/imageOwner.png");
+}
+.imageRes {
+	list-style-image: url("../images/imageRes.png");
+}
+.imageWrapper {
+	float: left;
+	width: 133px;
+	margin: 0px 8px 15px;
+	background-color: #fff;
+	text-align: center;
+	overflow: hidden;
+	height: 195px;
+}
+.imageDetails a li:hover {
+	text-decoration: underline;
+}

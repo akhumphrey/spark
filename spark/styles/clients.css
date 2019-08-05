@@ -1,0 +1,21 @@
+/*
+		NAME: clients.css
+		PROVIDES: client administration stylesheet information
+		AFFECTS: /clients/index.php
+*/
+
+#clientMessage {
+	height: 42px;
+}
+#clientMessageImg {
+	position: absolute;
+	left: 50%;
+	margin-left: -115px;
+}
+#clientMessageTxt {
+	position: absolute;
+	left: 50%;
+	margin-left: -80px;
+	text-align: left;
+	padding-top: 6px;
+}

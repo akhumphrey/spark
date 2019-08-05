@@ -1,0 +1,91 @@
+/*
+		NAME: users.css
+		PROVIDES: user administration stylesheet information
+		AFFECTS: /users/index.php
+*/
+
+#dateHeader {
+	margin-right: 27px;
+}
+#dimensionsHeader {
+	margin-right: 25px;
+}
+#formatHeader {
+	margin-right: 10px;
+}
+#headerRow li {
+	float: left;
+}
+#listSpacer {
+	clear: both;
+	height: 15px;
+}
+#nameHeader {
+	margin-left: 63px;
+	margin-right: 92px;
+}
+#ownerHeader {
+	margin-right: 50px;
+}
+#sizeHeader {
+	margin-right: 48px;
+}
+#tableWrapper {
+	position: relative;
+	left: 50%;
+	margin-left: -330px;
+	width: 645px;
+}
+.category {
+	width: 120px;
+}
+.date {
+	width: 72px;
+}
+.dimensions {
+	width: 80px;
+}
+.format {
+	width: 25px;
+}
+.imageRowA, .imageRowB {
+	clear: both;
+	margin-left: 1px;
+}
+.imageRowA li {
+	float: left;
+	border: 1px solid;
+	margin: -1px 0px 0px -1px;
+	background-color: #e6e6e6;
+	color: #808080;
+	padding: 2px 5px;
+}
+.imageRowB li {
+	float: left;
+	border: 1px solid;
+	margin: -1px 0px 0px -1px;
+	background-color: #f3f3f3;
+	padding: 2px 5px;
+}
+.imageRowA li:hover, .imageRowB li:hover {
+	background-color: #fff;
+}
+.name {
+	width: 150px;
+}
+.name a {
+	color: #808080;
+	padding: 2px 5px;
+	margin: -2px -5px;
+}
+.name a:hover {
+	color: #ffae00;
+	text-decoration: none;
+	background-color: #fff;
+}
+.owner {
+	width: 75px;
+}
+.size {
+	width: 45px;
+}

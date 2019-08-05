@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /users
+
+RewriteRule ^(\d+)/?$ ?iD=$1 [L]
+ReWriteRule ^(\d+)/edit/?$ ?iD=$1&event=edit [L]
+ReWriteRule ^(\d+)/save/?$ ?iD=$1&event=save [L]
+ReWriteRule ^(\d+)/delete/?$ ?iD=$1&event=delete [L]
+ReWriteRule ^new/?$ ?event=new [L]
+ReWriteRule ^save/?$ ?event=save [L]

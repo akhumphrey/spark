@@ -1,0 +1,45 @@
+/*
+		NAME: header.css
+		PROVIDES: header/tabs stylesheet information
+		AFFECTS: /images/index.php, /images/upload/index.php, /images/details/index.php, /users/index.php
+*/
+
+#activeTab {
+	float: left;
+	padding: 3px 10px;
+	margin-right: 15px;
+	background-color: #fff;
+	border: 1px solid;
+	border-bottom-color: #fff;
+}
+#header {
+	text-align: left;
+	height: 49px;
+	border-bottom: 1px solid;
+	padding: 0px 15px;
+	background-color: #e6e6e6;
+}
+#headerImg {
+	float: left;
+	padding-right: 15px;
+}
+#headerTabs {
+	padding-top: 28px;
+	font-size: 1.6em;
+}
+#headerTabs a {
+	color: #969696;
+	border: 1px solid;
+	border-bottom: 0px;
+	float: left;
+	padding: 3px 10px;
+	margin-right: 15px;
+}
+#headerTabs a:hover {
+	border-bottom: 1px solid #fff;
+	background-color: #fff;
+	text-decoration: none;
+}
+#logout {
+	margin-left: 20px;
+}

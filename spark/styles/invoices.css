@@ -1,0 +1,21 @@
+/*
+		NAME: invoices.css
+		PROVIDES: invoice administration stylesheet information
+		AFFECTS: /invoices/index.php
+*/
+
+#invoiceMessage {
+	height: 42px;
+}
+#invoiceMessageImg {
+	position: absolute;
+	left: 50%;
+	margin-left: -115px;
+}
+#invoiceMessageTxt {
+	position: absolute;
+	left: 50%;
+	margin-left: -80px;
+	text-align: left;
+	padding-top: 6px;
+}

@@ -1,0 +1,36 @@
+/*
+		NAME: error.css
+		PROVIDES: error stylesheet information
+		AFFECTS: /error/index.php
+*/
+
+#error {
+	background-color: #fff;
+	border: 1px solid;
+	border-left: 0px;
+	border-right: 0px;
+	height: 172px;
+	margin: 6px 0px 11px;
+}
+#error a {
+	color: #dd5c5c;
+}
+#errorImg {
+	position: absolute;
+	left: 50%;
+	margin-left: -195px;
+	margin-top: 60px;
+}
+#errorTxt {
+	position: absolute;
+	left: 50%;
+	margin-left: -160px;
+	font-size: 1.6em;
+	text-align: left;
+	padding-top: 6px;
+	width: 350px;
+}
+#errorWrapper {
+	padding-top: 4%;
+	text-align: center;
+}

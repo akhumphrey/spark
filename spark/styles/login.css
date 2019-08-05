@@ -1,0 +1,43 @@
+/*
+		NAME: login.css
+		PROVIDES: login stylesheet information
+		AFFECTS: /index.php
+*/
+
+#loginMessageImg {
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+}
+#loginMessageTxt {
+	position: absolute;
+	left: 50%;
+	margin-left: -115px;
+	font-size: 1.6em;
+	text-align: left;
+	padding-top: 6px;
+}
+#loginMessage {
+	background-color: #fff;
+	border: 1px solid;
+	border-left: 0px;
+	border-right: 0px;
+	height: 42px;
+	margin: 6px 0px 11px;
+}
+#loginForm {
+	font-size: 1.6em;
+	padding-top: 2px;
+}
+#loginWrapper {
+	padding-top: 14%;
+	text-align: center;
+}
+.loginBtn {
+	margin: 10px 8px;
+	padding: 1px 6px;
+}
+.loginTxtField {
+	padding: 2px 3px;
+	vertical-align: middle;
+}

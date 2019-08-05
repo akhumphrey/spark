@@ -1,0 +1,59 @@
+/*
+		NAME: common.css
+		PROVIDES: common stylesheet information
+		AFFECTS: all pages
+*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-color: #e6e6e6;
+	color: #969696;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 46%;
+}
+a {
+	text-decoration: none;
+	color: #969696;
+}
+a:hover {
+	text-decoration: underline;
+}
+form p {
+	padding: 2px 5px;
+}
+input {
+	padding: 1px 2px;
+	margin: 4px 5px;
+	border: 1px solid #969696;
+	color: #747474;
+	background-color: #f3f3f3;
+}
+li {
+	list-style-type: none;
+}
+li a {
+	color: #e89f00;
+}
+p a {
+	color: #e89f00;
+}
+select {
+	margin: 4px 5px;
+	color: #747474;
+	background-color: #f3f3f3;
+}
+#bodyWrapper {
+	font-size: 1.6em;
+	background-color: #fff;
+	border-bottom: 1px solid;
+}
+#copyright {
+	clear: both;
+	text-align: center;
+	font-size: 1.3em;
+	padding-top: 5px;
+	height: 16px;
+}

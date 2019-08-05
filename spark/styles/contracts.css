@@ -1,0 +1,21 @@
+/*
+		NAME: contracts.css
+		PROVIDES: contract administration stylesheet information
+		AFFECTS: /contracts/index.php
+*/
+
+#contractMessage {
+	height: 42px;
+}
+#contractMessageImg {
+	position: absolute;
+	left: 50%;
+	margin-left: -115px;
+}
+#contractMessageTxt {
+	position: absolute;
+	left: 50%;
+	margin-left: -80px;
+	text-align: left;
+	padding-top: 6px;
+}

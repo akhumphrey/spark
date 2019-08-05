@@ -1,0 +1,261 @@
+/*
+		NAME: upload.css
+		PROVIDES: image upload stylesheet information
+		AFFECTS: /images/upload/index.php, /images/details/index.php
+*/
+#bodyWrapper {
+	text-align: center;
+}
+#detailsWrapper {
+	list-style-type: none;
+	height: 250px;
+}
+#detailsWrapper2 {
+	list-style-type: none;
+	height: 300px;
+}
+#detailsWrapper input {
+	width: 120px;
+}
+#detailsWrapper2 input {
+	width: 120px;
+}
+#detailsWrapper select {
+	width: 129px;
+}
+#detailsWrapper2 select {
+	width: 129px;
+}
+#detNameLeft {
+	position: absolute;
+	left: 50%;
+	margin-left: -42px;
+}
+#detNameRight {
+	position: absolute;
+	left: 50%;       
+	margin-left: -2px;
+	margin-top: -6px;
+	color: #000;
+}
+#detNameRight input {
+	color: #000;
+}
+#detNameRight span {
+	position: absolute;
+	top: 8px;
+	left: 10px;
+}
+#detOwnerLeft {
+	position: absolute;
+	left: 50%;
+	margin-left: -47px;
+	margin-top: 25px;
+}
+#detOwnerRight {
+	position: absolute;
+	left: 50%;
+	margin-left: 4px;
+	margin-top: 25px;
+	color: #000;
+}
+#detOwnerRight input {
+	margin-left: -1px;
+	margin-top: -1px;
+	color: #000;
+}
+#detDateLeft {
+	position: absolute;
+	left: 50%;
+	margin-left: -37px;
+	margin-top: 50px;
+}
+#detDateRight {
+	position: absolute;
+	left: 50%;
+	margin-left: 4px;
+	margin-top: 50px;
+	color: #000;
+}
+#detFormatLeft {
+	position: absolute;
+	left: 50%;
+	margin-left: -49px;
+	margin-top: 75px;
+}
+#detFormatRight {
+	position: absolute;
+	left: 50%;
+	margin-left: 2px;
+	margin-top: 75px;
+	color: #000;
+}
+#detWidthLeft {
+	position: absolute;
+	left: 50%;
+	margin-left: -43px;
+	margin-top: 100px;
+}
+#detWidthRight {
+	position: absolute;
+	left: 50%;
+	margin-left: 2px;
+	margin-top: 100px;
+	color: #000;
+}
+#detHeightLeft {
+	position: absolute;
+	left: 50%;
+	margin-left: -47px;
+	margin-top: 125px;
+}
+#detHeightRight {
+	position: absolute;
+	left: 50%;
+	margin-left: 2px;
+	margin-top: 125px;
+	color: #000;
+}
+#detSizeLeft {
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: 150px;
+}
+#detSizeRight {
+	position: absolute;
+	left: 50%;
+	margin-left: 4px;
+	margin-top: 150px;
+	color: #000;
+}
+#detCatLeft {
+	position: absolute;
+	left: 50%;
+	margin-left: -62px;
+	margin-top: 175px;
+}
+#detCatRight {
+	position: absolute;
+	left: 50%;
+	margin-top: 169px;
+	color: #000;
+}
+#detCatRight select {
+	color: #000;
+}
+#detCatRight span {
+	position: absolute;
+	top: 8px;
+}
+#detKeysLeft {
+	position: absolute;
+	left: 50%;
+	margin-left: -68px;
+	margin-top: 200px;
+}
+#detKeysRight {
+	position: absolute;
+	left: 50%;
+	margin-top: 194px;
+	color: #000;
+}
+#detKeysRight input {
+	color: #000;
+}
+#detKeysRight span {
+	position: absolute;
+	top: 8px;
+}
+#detButLeft {
+	position: absolute;
+	left: 50%;
+	margin-left: -74px;
+	margin-top: 230px;
+}
+#detButRight {
+	position: absolute;
+	left: 50%;
+	margin-left: -6px;
+	margin-top: 230px;
+}
+#detButLeft input, #detButRight input {
+	width: 60px;
+}
+#detButMid {
+	padding-top: 225px;
+}
+#delButMid {
+	padding-top: 265px;
+}
+#detNotFound {
+	padding-bottom: 10px;
+}
+#detNotFoundBut {
+	padding-bottom: 15px;
+}
+#formButtons {
+	padding: 8px 0px 50px;
+}
+#formPath {
+	padding-top: 10px;
+}
+#imageWrapper {
+	padding: 18px;
+}
+#detailsMessage {
+	list-style-type: none;
+	height: 80px;
+}
+#sucImg {
+	position: absolute;
+	left: 50%;
+	margin-left: -93px;
+	margin-top: -15px;
+}
+#sucTxt {
+	position: absolute;
+	left: 50%;       
+	margin-left: -60px;
+	color: #000;
+}
+#sucButLeft {
+	position: absolute;
+	left: 50%;
+	margin-left: -127px;
+	margin-top: 28px;
+}
+#sucButRight {
+	position: absolute;
+	left: 50%;
+	margin-left: -10px;
+	margin-top: 28px;
+}
+#uploadError {
+	border: 1px solid;
+	border-left: 0px;
+	border-right: 0px;
+	height: 42px;
+	margin-top: 10px;
+}
+#uploadErrorImg {
+	position: absolute;
+	left: 50%;
+	margin-left: -135px;
+}
+#uploadErrorTxt {
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	font-size: 1em;
+	text-align: left;
+	padding-top: 6px;
+}
+#uploadImage {
+	padding-top: 7%;
+}
+.image {
+	padding: 12px;
+	background-color: #e6e6e6;
+	border: 1px solid;
+}

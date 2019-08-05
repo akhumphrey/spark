@@ -1,0 +1,48 @@
+* {
+	display: block;
+	background-color: #e6e6e6;
+	color: #969696;
+	padding: 2px 2px 2px 15px;
+}
+
+link:before { content: "URL:\00a0 " }
+description:before { content: "\21D2  "} 
+
+channel description { font-size: 150%; }
+item    description { font-size: 110%; }
+
+:root {
+	padding: 0;
+	padding-top: .7em;
+	margin: 2px;
+	font-size: 11pt;
+}
+a:hover {
+	color: #e89f00;
+}
+channel {
+	padding: 0;
+	margin-top: .9em;
+}
+channel > title {
+	font-size: 230%;
+	font-style: italic;
+}
+item {
+	padding: 0;
+	border: 1px solid #969696;
+	background-color: #fff;
+	border-left: 9px solid #e89f00;
+	margin: 25px 0 20px 0;
+}
+item > * {
+	background-color: #fff;
+}
+item > title {
+	font-size: 150%;
+}
+item > link {
+	font-size: 80%;
+	margin-top:  6px;
+	margin-bottom: 6px;
+}

@@ -1,0 +1,195 @@
+/*
+		NAME: users.css
+		PROVIDES: user administration stylesheet information
+		AFFECTS: /users/index.php
+*/
+
+span a {
+	padding: 2px 5px;
+	margin: -2px -5px;
+}
+span a:hover {
+	color: #ffae00;
+	text-decoration: none;
+	background-color: #fff;
+}
+#addUserBut {
+	position: relative;
+	float: left;
+	left: 50%;
+	margin-top: -45px;
+	margin-left: -90px;
+	width: 100px;
+	text-align: center;
+}
+#cancelUserBut {
+	margin: 20px 0px 0px 10px;
+}
+#enabledHeader {
+	padding: 0px 0px 2px 23px;
+}
+#enabledLeft {
+	margin-left: 48px;
+}
+#enabledRight input {
+	margin-bottom: -1px;
+}
+#groupHeader {
+	padding: 0px 17px 2px;
+}
+#groupLeft {
+	margin-left: 19px;
+}
+#groupRight select {
+	margin-bottom: -1px;
+	width: 140px;
+}
+#headerRow {
+	margin-left: 1px;
+}
+#headerRow span {
+	float: left;
+}
+#idHeader {
+	padding: 0px 3px 2px;
+}
+#idLeft {
+	margin-left: 50px;
+}
+#idRight {
+	margin-left: 3px;
+}
+#nameFLeft {
+	margin-left: 30px;
+}
+#nameFRight input {
+	margin-bottom: -1px;
+}
+#nameLLeft {
+	margin-left: 30px;
+}
+#nameLRight input {
+	margin-bottom: -1px;
+}
+#nameHeader {
+	padding: 0px 87px 2px;
+}
+#pass1Left {
+	margin-left: 38px;
+}
+#pass1Right input {
+	margin-bottom: -1px;
+}
+#pass2Left {
+	margin-left: -5px;
+}
+#pass2Right input {
+	margin-bottom: -1px;
+}
+#phoneHeader {
+	padding: 0px 43px 2px;
+}
+#phoneLeft {
+	margin-left: 7px;
+}
+#phoneRight input {
+	margin-bottom: -1px;
+}
+#saveUserBut {
+	margin: 20px 0px 0px 60px;
+}
+#tableWrapper {
+	position: absolute;
+	left: 50%;
+	margin-left: -345px;
+}
+#userDetails {
+	margin-left: -290px;
+}
+#userDetails li {
+	position: relative;
+	left: 50%;
+	width: 280px;
+	margin-bottom: 8px;
+}
+#userDetails p {
+	display: inline;
+}
+#userHeader  {
+	padding: 0px 23px 2px;
+}
+#userLeft {
+	margin-left: 34px;
+}
+#userRight {
+	margin-left: 3px;
+}
+#userRight input {
+	margin-left: 2px;
+	margin-bottom: -1px;
+}
+#userMessage {
+	height: 42px;
+}
+#userMessageImg {
+	position: absolute;
+	left: 50%;
+	margin-left: -115px;
+}
+#userMessageTxt {
+	position: absolute;
+	left: 50%;
+	margin-left: -80px;
+	text-align: left;
+	padding-top: 6px;
+}
+.disabled {
+	width: 65px;
+}
+.disabled p {
+	color: #f00;
+}
+.enabled {
+	width: 65px;
+}
+.enabled p {
+	color: #0b0;
+}
+.group {
+	width: 50px;
+}
+.id {
+	width: 8px;
+}
+.name {
+	width: 200px;
+}
+.phone {
+	width: 120px;
+}
+.user {
+	width: 90px;
+}
+.userRowA, .userRowB {
+	clear: both;
+	margin-left: 1px;
+}
+.userRowA span {
+	float: left;
+	border: 1px solid;
+	margin: -1px 0px 0px -1px;
+	background-color: #e6e6e6;
+	color: #808080;
+	padding: 2px 5px;
+}
+.userRowB span {
+	float: left;
+	border: 1px solid;
+	margin: -1px 0px 0px -1px;
+	background-color: #f3f3f3;
+	padding: 2px 5px;
+}
+.userSpacer p {
+	color: #ffae00;
+	margin-left: 117px;
+}
